@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html  lang="en">
+
+{% load staticfiles %}
+
+<head>
+	<meta charset="UTF-8">
+	<title>404</title>
+</head>
+
+<body>
+    <div>
+        <br/><br/>
+        <p>{{ msg }}</p>
+        <a href="{% url 'file_manage_index' 1 %}">回到首页</a>
+    </div>
+</body>
+
+</html>
